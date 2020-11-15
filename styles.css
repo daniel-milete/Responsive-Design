@@ -1,0 +1,66 @@
+a {
+  margin: 0.5px auto;
+  padding: 10px;
+  display: block;
+  width: 200px;
+  border: solid black;
+}
+img {
+  width: 300px;
+  margin: 0.5px auto;
+  padding: 10px;
+  display: block;
+}
+
+#buttonTop {
+  display: block;
+  margin: 0.5px auto;
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  border: solid black;
+  background-color: transparent;
+}
+
+nav,
+footer,
+h1,
+h2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 735px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.gallery {
+  width: 45%;
+  height: 245px;
+  text-align: center;
+}
+
+.gallery img {
+  height: 175px;
+  width: 100%;
+}
+
+/* ctrl/ makes comment. */
+/* When my screen hits the minimal width of '___'px,
+run this code */
+@media (min-width: 800px) {
+  body {
+    background-color: red;
+  }
+}
+@media (min-width: 1366px) {
+  body {
+    background-color: whitesmoke;
+  }
+}
